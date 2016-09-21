@@ -1,0 +1,17 @@
+# interfaces(5) file used by ifup(8) and ifdown(8)
+auto lo
+iface lo inet loopback
+
+auto enp4s0
+iface enp4s0 inet dhcp
+
+#auto enp4s0.55
+
+#iface enp4s0.55 inet static
+#	address 192.168.55.1
+#	network 192.168.55.0
+#	netmask 255.255.255.0
+#	vlan_raw_device enp4s0
+
+#auto  wlx44334c6cc0c9
+#iface wlx44334c6cc0c9 inet dhcp
