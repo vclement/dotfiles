@@ -229,7 +229,9 @@ bindsym XF86AudioPrev exec playerctl previous
 #Commande pour augmenter ou diminuer le son.
 bindsym Mod1+F1 exec amixer -D pulse sset Master 5%+
 bindsym Mod1+F2 exec amixer -D pulse sset Master 5%-
-
+#Commande pour mute le son ou le unmute
+bindsym Mod1+F3 exec amixer sset Master mute
+bindsym Mod1+F4 exec amixer sset Master unmute
 
 exec_always feh --bg-scale /home/esieavince/Images/wallpaper3.jpg
 exec_always xcompmgr
